@@ -1,7 +1,16 @@
-'''Podváha: BMI nižší než 18,5
+
+'''
+tkinter je knihovna pro vytváření grafických rozhraní v Pythonu.
+messagebox slouží k zobrazení chybových hlášek nebo dialogů.
+Importuješ potřebné nástroje pro tvorbu okna a zobrazení zpráv.
+'''
+
+'''
+Podváha: BMI nižší než 18,5
 Normální váha: BMI mezi 18,5 a 24,9
 Nadváha: BMI mezi 25 a 29,9
-Obezita: BMI 30 a více'''
+Obezita: BMI 30 a více
+'''
 
 vaha = float(input("Vlož svojí váhu v KG "))
 vyska = float(input("Vlož svojí výšku v M ")) # BMI = hmotnost (kg) / (výška v metrech)².
